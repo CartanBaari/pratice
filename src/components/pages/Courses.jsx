@@ -81,10 +81,11 @@ const CourseCard = ({ imgSrc, title, votes, author, students, price }) => {
           <span>{students}</span>
         </div>
         <div>
-          <span className="text-blue-500 text-xl">{price}</span>
+          <span className="text-blue-600 text-2xl">{price}</span>
         </div>
       </div>
     </div>
+    
   );
 };
 
